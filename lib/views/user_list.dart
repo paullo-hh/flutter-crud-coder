@@ -17,11 +17,7 @@ class UserList extends StatelessWidget {
         actions: <Widget>[
           Padding(
             padding: const EdgeInsets.only(right: 10),
-            child: IconButton(
-              icon: const Icon(Icons.add),
-              onPressed: () {
-              },
-            ),
+            child: IconButton(icon: const Icon(Icons.add), onPressed: () {}),
           ),
         ],
         backgroundColor: const Color.fromARGB(255, 124, 196, 255),

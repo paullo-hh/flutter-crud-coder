@@ -26,12 +26,12 @@ class UserTile extends StatelessWidget {
           children: [
             IconButton(
               icon: const Icon(Icons.edit),
-              color: Colors.amber[300],
+              color: const Color.fromARGB(255, 255, 213, 74),
               onPressed: () {},
             ),
             IconButton(
               icon: const Icon(Icons.delete),
-              color: Colors.red,
+              color: const Color.fromARGB(255, 199, 56, 46),
               onPressed: () {},
             ),
           ],

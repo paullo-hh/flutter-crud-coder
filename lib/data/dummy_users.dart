@@ -19,7 +19,8 @@ const DUMMY_USERS = {
     id: '3',
     name: 'Alice Johnson',
     email: 'alice@gmail.com.br',
-    imageUrl:'https://cdn.pixabay.com/photo/2016/03/31/19/58/avatar-1295429_1280.png',
+    imageUrl:
+        'https://cdn.pixabay.com/photo/2016/03/31/19/58/avatar-1295429_1280.png',
   ),
   '4': User(
     id: '4',
