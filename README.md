@@ -1,16 +1,72 @@
-# flutter_crud
+# Aplicação CRUD em Flutter
 
-A new Flutter project.
+Uma aplicação simples de CRUD (Create, Read, Update, Delete) construída para aprimorar meus conhecimentos em desenvolvimento com Flutter.
 
-## Getting Started
+## 🎯 Objetivo do Projeto
 
-This project is a starting point for a Flutter application.
+Este projeto foi desenvolvido para:
+- Praticar fundamentos do Flutter
+- Implementar operações básicas de CRUD
+- Entender gerenciamento de estado no Flutter
+- E algumas boas práticas no desenvolvimento mobile
 
-A few resources to get you started if this is your first Flutter project:
+## 🛠 Tecnologias Utilizadas
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- Flutter
+- Dart
+- Provider (para gerenciamento de estado)
+- Material Design
+- VS Code
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 🚀 Como Começar
+
+### Pré-requisitos
+- Flutter SDK
+- Dart SDK
+- Android Studio / VS Code
+- Um emulador ou dispositivo físico
+
+### Instalação
+
+1. Clone este repositório
+```bash
+git clone https://github.com/seuusuario/flutter_crud.git
+```
+
+2. Navegue até o diretório do projeto
+```bash
+cd flutter_crud
+```
+
+3. Instale as dependências
+```bash
+flutter pub get
+```
+
+4. Execute a aplicação
+```bash
+flutter run
+```
+
+## ⚙️ Funcionalidades
+
+- Criar novos usuários
+- Visualizar lista de usuários
+- Atualizar informações de usuários
+- Deletar usuários
+- Design responsivo
+
+<!-- ## 🧪 Testes
+
+Para executar os testes, utilize:
+```bash
+flutter test
+``` -->
+
+<!-- ## 📱 Capturas de Tela
+
+[Adicione as capturas de tela do seu app aqui] -->
+
+## 📝 Licença
+
+Este projeto está sob a licença MIT. Fique à vontade para utilizá-lo em seus estudos!
