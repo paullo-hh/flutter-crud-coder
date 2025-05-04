@@ -63,9 +63,9 @@ Para executar os testes, utilize:
 flutter test
 ``` -->
 
-<!-- ## 📱 Capturas de Tela
+## 📱 Capturas de Tela
 
-[Adicione as capturas de tela do seu app aqui] -->
+<img src="./assets/img/screenshot-flutter-crud-interface.jpg" height="420">
 
 ## 📝 Licença
 
