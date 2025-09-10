@@ -15,8 +15,8 @@ class Users with ChangeNotifier {
     return _items.length;
   }
 
-  User byIndex(int i) {
-    return _items.values.elementAt(i);
+  User byIndex(int id) {
+    return _items.values.elementAt(id);
   }
 
   void put(User user) {
