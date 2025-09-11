@@ -1,5 +1,3 @@
-import 'dart:math';
-
 import 'package:flutter/material.dart';
 import 'package:flutter_crud/data/dummy_users.dart';
 import 'package:flutter_crud/models/user.dart';
@@ -20,14 +18,10 @@ class Users with ChangeNotifier {
   }
 
   void put(User user) {
-    if (user == null) {
-      return;
-    }
-
-    // atualiza se existir e não for nulo
     if (user.id != null &&
         user.id!.trim().isNotEmpty &&
         _items.containsKey(user.id)) {
+      // Atualiza usuário existente
       _items.update(
         user.id!,
         (_) => User(
@@ -38,15 +32,17 @@ class Users with ChangeNotifier {
         ),
       );
     } else {
-      // add caso não existir
-      final id = Random().nextDouble().toString();
+      // Adiciona novo usuário
+      final id = DateTime.now().millisecondsSinceEpoch.toString();
       _items.putIfAbsent(
         id,
         () => User(
           id: id,
           name: user.name,
           email: user.email,
-          imageUrl: user.imageUrl,
+          imageUrl:
+              user.imageUrl ??
+              'https://cdn.pixabay.com/photo/2016/08/08/09/17/avatar-1577909_1280.png',
         ),
       );
     }

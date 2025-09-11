@@ -11,22 +11,22 @@ class UserList extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: Text(
-          'Lista de Usuários',
+          'Users List',
           style: TextStyle(fontWeight: FontWeight.bold),
         ),
         actions: <Widget>[
           Padding(
             padding: const EdgeInsets.only(right: 10),
             child: IconButton(
-              icon: const Icon(Icons.add),
+              icon: const Icon(Icons.person_add_rounded),
               onPressed: () {
                 Navigator.of(context).pushNamed('/user-form');
               },
             ),
           ),
         ],
-        backgroundColor: const Color.fromARGB(255, 124, 196, 255),
-        foregroundColor: Colors.white,
+        backgroundColor: const Color.fromARGB(255, 42, 42, 42),
+        foregroundColor: const Color.fromARGB(255, 233, 233, 233),
       ),
       body: ListView.builder(
         itemCount: users.count,
